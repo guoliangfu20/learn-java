@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: nacos-test
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.104:8848
+        file-extension: yml
+        namespace: public
+
+#暴露所有web端点
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
