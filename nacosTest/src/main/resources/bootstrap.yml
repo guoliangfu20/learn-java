@@ -4,9 +4,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.0.104:8848
+        server-addr: 192.168.0.107:8848
         file-extension: yml
-        namespace: public
+        namespace: 9e117243-adee-4555-957c-0735065b49cd
 
 #暴露所有web端点
 management:
