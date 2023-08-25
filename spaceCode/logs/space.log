@@ -1,0 +1,40 @@
+2023-08-25 09:20:26.088  INFO 10716 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 10716 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 09:20:26.099  INFO 10716 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 09:20:29.017  INFO 10716 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 09:20:29.570  INFO 10716 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.822 seconds (JVM running for 4.948)
+2023-08-25 09:20:29.870  INFO 10716 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.0.111:5672]
+2023-08-25 09:20:29.958  WARN 10716 --- [AMQP Connection 192.168.0.111:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occurred (Exception message: Connection reset)
+2023-08-25 09:23:06.254  INFO 18704 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 18704 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 09:23:06.255  INFO 18704 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 09:23:08.854  INFO 18704 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 09:23:09.245  INFO 18704 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.275 seconds (JVM running for 4.189)
+2023-08-25 09:23:09.443  INFO 18704 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-08-25 09:23:09.516  INFO 18704 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6c841199:0/SimpleConnection@7455dacb [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58514]
+2023-08-25 09:25:53.540  INFO 6020 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 6020 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 09:25:53.541  INFO 6020 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 09:25:56.140  INFO 6020 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 09:25:56.543  INFO 6020 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.324 seconds (JVM running for 4.101)
+2023-08-25 09:25:56.722  INFO 6020 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-08-25 09:25:56.777  INFO 6020 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#408e96d9:0/SimpleConnection@3290b1a6 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58954]
+2023-08-25 09:26:11.685  INFO 5040 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 5040 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 09:26:11.701  INFO 5040 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 09:26:14.705  INFO 5040 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 09:26:15.237  INFO 5040 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.95 seconds (JVM running for 5.056)
+2023-08-25 09:26:15.472  INFO 5040 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-08-25 09:26:15.552  INFO 5040 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1ef31f71:0/SimpleConnection@365bfc5f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58981]
+2023-08-25 10:32:49.544  INFO 4488 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 4488 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 10:32:49.545  INFO 4488 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 10:32:52.198  INFO 4488 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 10:32:52.617  INFO 4488 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.394 seconds (JVM running for 4.174)
+2023-08-25 10:34:54.299  INFO 17168 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 17168 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 10:34:54.299  INFO 17168 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 10:34:56.950  INFO 17168 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 10:34:57.351  INFO 17168 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.361 seconds (JVM running for 4.122)
+2023-08-25 10:36:54.482  INFO 9668 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 9668 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 10:36:54.483  INFO 9668 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 10:36:57.099  INFO 9668 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 10:36:57.525  INFO 9668 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.384 seconds (JVM running for 4.14)
+2023-08-25 10:40:49.105  INFO 19960 --- [main] com.space.TestRabbit                     : Starting TestRabbit using Java 1.8.0_381 on GuoliangFu with PID 19960 (started by fuguoliang in E:\codes\learn-java\spaceCode)
+2023-08-25 10:40:49.107  INFO 19960 --- [main] com.space.TestRabbit                     : No active profile set, falling back to 1 default profile: "default"
+2023-08-25 10:40:51.789  INFO 19960 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-08-25 10:40:52.201  INFO 19960 --- [main] com.space.TestRabbit                     : Started TestRabbit in 3.449 seconds (JVM running for 4.216)

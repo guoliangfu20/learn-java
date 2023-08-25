@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.space.mapper.SpaceDataMapper">
+    <resultMap id="BaseResultMap" type="com.space.bean.SpaceData">
+        <id column="Id" jdbcType="INTEGER" property="id"/>
+        <id column="Data" jdbcType="INTEGER" property="data"/>
+    </resultMap>
+
+
+    <select id="getList" resultType="com.space.bean.SpaceData">
+        SELECT *
+        FROM SpaceData
+    </select>
+
+    <insert id="add">
+        INSERT INTO SpaceData
+        values (#{data})
+    </insert>
+
+    <insert id="addBatch">
+        INSERT INTO SpaceData (data) values
+        <foreach collection="list" item="item" separator=",">
+            (
+            #{item.data}
+            )
+        </foreach>
+    </insert>
+
+    <delete id="deleteAll">
+        truncate table SpaceData
+    </delete>
+
+    <select id="getListPage" resultType="com.space.bean.SpaceData">
+        select * from (select *, ROW_NUMBER() OVER(Order by Id ) AS RowId from SpaceData ) as b
+        where RowId between #{pageStart} and #{pageSize}
+    </select>
+
+
+
+</mapper>
